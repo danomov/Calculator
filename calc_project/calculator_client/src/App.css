@@ -1,6 +1,6 @@
 .App {
   width: 300px;
-  height: 300px;
+  height: 344px;
   margin: 0 auto;
   border: 2px solid black;
   background-color: gray;
@@ -16,13 +16,19 @@ h1 {
   height: 265px; 
 }
 
+#clear, #clearAll {
+  width: 50%;
+  height: 40px;
+  border: 2px solid gray;
+}
+
 #multip, #division, #divide {
   width: 100%;
   height: 100%;
 }
 
 input {
-  width: 48%;
+  width: 98.5%;
   height: 10%;
   border: 2px solid gray;
 }
@@ -40,4 +46,8 @@ span {
 body {
   margin-bottom: 10%;
   background-color: brown;
+}
+
+button:hover {
+  background-color: white;
 }
